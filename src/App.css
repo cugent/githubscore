@@ -7,7 +7,9 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+button {
+  width: 275px;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -30,4 +32,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+#contentarea {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: lightgray;
+}
+#form {
+  width: 300px;
+  height: 300px;
+}
+
+#score {
+  width: 500px;
+  height: 300px;
 }
